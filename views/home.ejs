@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1 align="center">Signed up users</h1>
+<% for( i=0;i<res.length;i++) { %>
+<ul>
+<li><b><%= res[i].email%></b><br>
+ <b><%= res[i].password%></b><br></li></ul>
+ <% } %>
+</body>
+</html>
